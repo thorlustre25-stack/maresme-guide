@@ -1,0 +1,72 @@
+{
+  "business_listing_template": {
+    "basic_info": {
+      "name": "",
+      "type": "restaurant | bar | xiringuito | excursion | other",
+      "town": "",
+      "address": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "google_maps_url": ""
+    },
+    "contact": {
+      "phone": "",
+      "whatsapp": "",
+      "email": "",
+      "website": "",
+      "instagram": "",
+      "facebook": ""
+    },
+    "hours": {
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      "friday": "",
+      "saturday": "",
+      "sunday": "",
+      "notes": "e.g., 'Closed in winter', 'Summer hours different'"
+    },
+    "listing_tier": {
+      "type": "basic | featured | premium",
+      "price_paid": null,
+      "start_date": "",
+      "renewal_date": "",
+      "includes_website": false,
+      "includes_google_management": false
+    },
+    "content": {
+      "short_description": "Max 100 characters for basic listings",
+      "full_description": "For featured/premium only",
+      "specialties": [],
+      "tags": ["beach", "cocktails", "live_music", "family_friendly", "late_night"],
+      "price_range": "€ | €€ | €€€",
+      "languages_spoken": []
+    },
+    "media": {
+      "logo": "",
+      "main_photo": "",
+      "gallery": [],
+      "menu_pdf": ""
+    },
+    "events": {
+      "recurring": [
+        {
+          "name": "",
+          "day": "",
+          "time": "",
+          "description": ""
+        }
+      ],
+      "special": []
+    },
+    "metadata": {
+      "created_date": "",
+      "last_updated": "",
+      "verified": false,
+      "active": true
+    }
+  }
+}

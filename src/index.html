@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your guide to beaches, bars, parties and practical info in Maresme, Catalunya. Airport transport, xiringuitos, nightlife and more.">
+    <title>Maresme Beach Guide | Beaches, Bars & Nightlife on the Costa del Maresme</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#9788;</span>
+                <span>Maresme<strong>Guide</strong></span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#beaches">Beaches</a></li>
+                <li><a href="#xiringuitos">Xiringuitos</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#transport">Getting Here</a></li>
+                <li><a href="#events" class="nav-highlight">What's On</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Discover the Real<br><span class="highlight">Costa del Maresme</span></h1>
+            <p class="hero-subtitle">52km of beaches, beach bars, parties & good times.<br>Your honest guide to the Catalan coast.</p>
+            <div class="hero-buttons">
+                <a href="#beaches" class="btn btn-primary">Find a Beach</a>
+                <a href="#transport" class="btn btn-secondary">Airport Transport</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Quick Info Bar -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-item">
+                <span class="info-icon">&#9728;</span>
+                <div>
+                    <strong>300+</strong>
+                    <span>Sunny days/year</span>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#127958;</span>
+                <div>
+                    <strong>52km</strong>
+                    <span>Of coastline</span>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#128646;</span>
+                <div>
+                    <strong>40min</strong>
+                    <span>To Barcelona</span>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#127866;</span>
+                <div>
+                    <strong>50+</strong>
+                    <span>Beach bars</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beaches Section -->
+    <section id="beaches" class="section beaches-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beaches</h2>
+                <p>From lively party beaches to quiet family coves</p>
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="party">Party Vibes</button>
+                <button class="filter-btn" data-filter="family">Family Friendly</button>
+                <button class="filter-btn" data-filter="quiet">Quiet & Relaxed</button>
+            </div>
+            <div class="card-grid">
+                <article class="card" data-category="party">
+                    <div class="card-image" style="background-image: url('assets/images/beach-placeholder.jpg')">
+                        <span class="card-badge">Party Beach</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Platja Gran de Calella</h3>
+                        <p class="card-location">Calella</p>
+                        <p>The main beach with multiple xiringuitos, water sports, and a lively atmosphere. Perfect for those who want action.</p>
+                        <div class="card-tags">
+                            <span>Xiringuitos</span>
+                            <span>Water Sports</span>
+                            <span>Volleyball</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" data-category="family">
+                    <div class="card-image" style="background-image: url('assets/images/beach-placeholder.jpg')">
+                        <span class="card-badge badge-family">Family Beach</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Platja de Santa Susanna</h3>
+                        <p class="card-location">Santa Susanna</p>
+                        <p>Wide sandy beach with gentle waves, perfect for families. Good facilities and lifeguards in summer.</p>
+                        <div class="card-tags">
+                            <span>Lifeguards</span>
+                            <span>Showers</span>
+                            <span>Calm Waters</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" data-category="party">
+                    <div class="card-image" style="background-image: url('assets/images/beach-placeholder.jpg')">
+                        <span class="card-badge">Party Beach</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Platja de Pineda</h3>
+                        <p class="card-location">Pineda de Mar</p>
+                        <p>Long stretch with beach bars and a young crowd. The xiringuitos here get busy at sunset.</p>
+                        <div class="card-tags">
+                            <span>Sunset Spot</span>
+                            <span>Xiringuitos</span>
+                            <span>Music</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" data-category="quiet">
+                    <div class="card-image" style="background-image: url('assets/images/beach-placeholder.jpg')">
+                        <span class="card-badge badge-quiet">Quiet Beach</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cala Sant Pol</h3>
+                        <p class="card-location">Sant Feliu de Guixols</p>
+                        <p>A beautiful cove away from the crowds. Bring your own supplies - limited facilities but stunning scenery.</p>
+                        <div class="card-tags">
+                            <span>Scenic</span>
+                            <span>Snorkeling</span>
+                            <span>Natural</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="pages/beaches.html" class="btn btn-outline">View All Beaches</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Xiringuitos Section -->
+    <section id="xiringuitos" class="section xiringuitos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Xiringuitos</h2>
+                <p>Beach bars for drinks, food, music & sunset vibes</p>
+            </div>
+            <div class="featured-grid">
+                <article class="featured-card">
+                    <div class="featured-image" style="background-image: url('assets/images/xiringuito-placeholder.jpg')">
+                        <div class="featured-overlay">
+                            <span class="featured-badge">Featured</span>
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <h3>Xiringuito Example Name</h3>
+                        <p class="featured-location">Calella Beach</p>
+                        <p>Known for their mojitos and weekend DJ sessions. Gets packed after 6pm - arrive early for a good spot.</p>
+                        <div class="featured-details">
+                            <div class="detail">
+                                <span class="detail-label">Open</span>
+                                <span>10:00 - 02:00</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Vibe</span>
+                                <span>Party / Music</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </article>
+                <article class="featured-card">
+                    <div class="featured-image" style="background-image: url('assets/images/xiringuito-placeholder.jpg')">
+                        <div class="featured-overlay">
+                            <span class="featured-badge">Featured</span>
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <h3>Another Beach Bar</h3>
+                        <p class="featured-location">Pineda de Mar</p>
+                        <p>Family-friendly by day, cocktail bar by night. Great food menu with local seafood and paella.</p>
+                        <div class="featured-details">
+                            <div class="detail">
+                                <span class="detail-label">Open</span>
+                                <span>09:00 - 00:00</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Vibe</span>
+                                <span>Relaxed / Food</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="pages/xiringuitos.html" class="btn btn-outline">All Xiringuitos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section activities-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Things To Do</h2>
+                <p>Beyond the beach - water parks, rentals, sports & nature</p>
+            </div>
+            <div class="transport-grid">
+                <a href="pages/activities.html#water-parks" class="transport-card">
+                    <div class="transport-icon">&#127946;</div>
+                    <h3>Water Parks</h3>
+                    <p>Marineland, Water World & Illa Fantasia. Perfect for families and hot days.</p>
+                    <span class="transport-link">Explore &rarr;</span>
+                </a>
+                <a href="pages/activities.html#water-sports" class="transport-card">
+                    <div class="transport-icon">&#127940;</div>
+                    <h3>Water Sports</h3>
+                    <p>Jet ski, parasailing, paddle boards, kayaks & boat rentals on the beach.</p>
+                    <span class="transport-link">Explore &rarr;</span>
+                </a>
+                <a href="pages/activities.html#rentals" class="transport-card">
+                    <div class="transport-icon">&#128690;</div>
+                    <h3>Bike & Vehicle Rental</h3>
+                    <p>Bikes, e-bikes, scooters, quads & cars. Explore the coast your way.</p>
+                    <span class="transport-link">Explore &rarr;</span>
+                </a>
+                <a href="pages/activities.html#nature" class="transport-card">
+                    <div class="transport-icon">&#127795;</div>
+                    <h3>Hiking & Nature</h3>
+                    <p>500km of trails in Montnegre Natural Park, just behind the beaches.</p>
+                    <span class="transport-link">Explore &rarr;</span>
+                </a>
+            </div>
+            <div class="section-cta">
+                <a href="pages/activities.html" class="btn btn-outline">View All Activities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transport Section (Your Key Differentiator) -->
+    <section id="transport" class="section transport-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Getting Here & Around</h2>
+                <p>Clear, honest transport info - no confusion</p>
+            </div>
+            <div class="transport-grid">
+                <a href="pages/transport.html#airport" class="transport-card">
+                    <div class="transport-icon">&#9992;</div>
+                    <h3>From Barcelona Airport</h3>
+                    <p>Step-by-step guide with exact bus stops, prices, and times. No more guessing.</p>
+                    <span class="transport-link">View Guide &rarr;</span>
+                </a>
+                <a href="pages/transport.html#train" class="transport-card">
+                    <div class="transport-icon">&#128646;</div>
+                    <h3>Train to Barcelona</h3>
+                    <p>R1 Rodalies line - stations, schedules, ticket prices, and tips.</p>
+                    <span class="transport-link">View Guide &rarr;</span>
+                </a>
+                <a href="pages/transport.html#bus" class="transport-card">
+                    <div class="transport-icon">&#128653;</div>
+                    <h3>Local Buses</h3>
+                    <p>Getting between towns along the coast. Routes and schedules.</p>
+                    <span class="transport-link">View Guide &rarr;</span>
+                </a>
+                <a href="pages/tourist-info.html" class="transport-card">
+                    <div class="transport-icon">&#8505;</div>
+                    <h3>Tourist Information</h3>
+                    <p>Office locations, hours, and what help they can provide.</p>
+                    <span class="transport-link">Find Offices &rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What's On</h2>
+                <p>Parties, events & things happening this week</p>
+            </div>
+            <div class="events-list">
+                <article class="event-card">
+                    <div class="event-date">
+                        <span class="event-day">SAT</span>
+                        <span class="event-num">15</span>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-type">Beach Party</span>
+                        <h3>Sunset Session @ Xiringuito Name</h3>
+                        <p>Calella Beach &bull; From 18:00 &bull; Free entry</p>
+                    </div>
+                    <a href="#" class="event-link">Info</a>
+                </article>
+                <article class="event-card">
+                    <div class="event-date">
+                        <span class="event-day">SUN</span>
+                        <span class="event-num">16</span>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-type">Live Music</span>
+                        <h3>Jazz on the Beach</h3>
+                        <p>Pineda de Mar &bull; From 20:00 &bull; Free</p>
+                    </div>
+                    <a href="#" class="event-link">Info</a>
+                </article>
+                <article class="event-card">
+                    <div class="event-date">
+                        <span class="event-day">FRI</span>
+                        <span class="event-num">21</span>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-type">Club Night</span>
+                        <h3>Summer Beats @ Club Example</h3>
+                        <p>Malgrat de Mar &bull; 23:00 - 05:00 &bull; 10&euro;</p>
+                    </div>
+                    <a href="#" class="event-link">Info</a>
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="pages/events.html" class="btn btn-primary">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nightlife Section -->
+    <section id="nightlife" class="section nightlife-section">
+        <div class="container">
+            <div class="section-header light">
+                <h2>Nightlife</h2>
+                <p>Bars, clubs & late-night spots along the coast</p>
+            </div>
+            <div class="nightlife-grid">
+                <div class="nightlife-category">
+                    <h3>&#127867; Cocktail Bars</h3>
+                    <ul class="venue-list">
+                        <li><a href="#">Bar Name - Calella</a></li>
+                        <li><a href="#">Another Bar - Pineda</a></li>
+                        <li><a href="#">Third Place - Malgrat</a></li>
+                    </ul>
+                </div>
+                <div class="nightlife-category">
+                    <h3>&#127926; Clubs & DJs</h3>
+                    <ul class="venue-list">
+                        <li><a href="#">Club Example - Calella</a></li>
+                        <li><a href="#">Another Club - Lloret</a></li>
+                    </ul>
+                </div>
+                <div class="nightlife-category">
+                    <h3>&#127866; Pubs & Late Bars</h3>
+                    <ul class="venue-list">
+                        <li><a href="#">Irish Pub - Calella</a></li>
+                        <li><a href="#">Sports Bar - Pineda</a></li>
+                        <li><a href="#">Local Bar - Santa Susanna</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="pages/nightlife.html" class="btn btn-outline light">Explore Nightlife</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Towns Quick Links -->
+    <section class="section towns-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore by Town</h2>
+                <p>Each town has its own character</p>
+            </div>
+            <div class="towns-grid">
+                <a href="pages/towns/calella.html" class="town-card">
+                    <span class="town-name">Calella</span>
+                    <span class="town-vibe">Party capital</span>
+                </a>
+                <a href="pages/towns/pineda.html" class="town-card">
+                    <span class="town-name">Pineda de Mar</span>
+                    <span class="town-vibe">Beach & bars</span>
+                </a>
+                <a href="pages/towns/santa-susanna.html" class="town-card">
+                    <span class="town-name">Santa Susanna</span>
+                    <span class="town-vibe">Family friendly</span>
+                </a>
+                <a href="pages/towns/malgrat.html" class="town-card">
+                    <span class="town-name">Malgrat de Mar</span>
+                    <span class="town-vibe">Local vibe</span>
+                </a>
+                <a href="pages/towns/blanes.html" class="town-card">
+                    <span class="town-name">Blanes</span>
+                    <span class="town-vibe">Gateway to Costa Brava</span>
+                </a>
+                <a href="pages/towns/mataro.html" class="town-card">
+                    <span class="town-name">Matar&oacute;</span>
+                    <span class="town-vibe">Regional hub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business CTA -->
+    <section class="section business-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Got a Bar, Restaurant or Xiringuito?</h2>
+                <p>Get your business in front of thousands of tourists looking for exactly what you offer.</p>
+                <a href="pages/for-business.html" class="btn btn-primary">List Your Business</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">&#9788;</span>
+                        <span>Maresme<strong>Guide</strong></span>
+                    </a>
+                    <p>Your honest guide to the Costa del Maresme. Beaches, bars, parties, and practical info.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#beaches">Beaches</a></li>
+                        <li><a href="#xiringuitos">Xiringuitos</a></li>
+                        <li><a href="pages/activities.html">Activities</a></li>
+                        <li><a href="#nightlife">Nightlife</a></li>
+                        <li><a href="#events">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Practical</h4>
+                    <ul>
+                        <li><a href="pages/transport.html">Transport</a></li>
+                        <li><a href="pages/tourist-info.html">Tourist Offices</a></li>
+                        <li><a href="pages/barcelona.html">Day Trip to Barcelona</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><a href="pages/about.html">About Us</a></li>
+                        <li><a href="pages/for-business.html">For Businesses</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MaresmeGuide. Made with sun and sangria.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
